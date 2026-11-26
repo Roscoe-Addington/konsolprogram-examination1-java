@@ -10,4 +10,14 @@ public abstract class Behandling{
         this.veckor = veckor;
         antalBehandlingar++;
     }
+    public String getPatientkod(){
+        return patientkod;
+    }
+    public int getVeckor(){
+        return veckor;
+    }
+    public int getAntalBehandlingar(){
+        return antalBehandlingar;
+    }
+
 }
