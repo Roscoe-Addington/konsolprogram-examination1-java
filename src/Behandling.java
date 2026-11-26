@@ -26,5 +26,5 @@ public abstract class Behandling{
             System.out.println("Kan inte sätta behandlingstiden till " + nyttAntal + " veckor.");
         }
     }
-
+public abstract String aterfallsrisk();
 }
