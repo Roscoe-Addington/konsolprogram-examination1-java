@@ -19,5 +19,12 @@ public abstract class Behandling{
     public int getAntalBehandlingar(){
         return antalBehandlingar;
     }
+    public void setVeckor(int nyttAntal){
+        if (nyttAntal >= 1 && nyttAntal <= MAX_VECKOR){
+            veckor = nyttAntal;
+        } else {
+            System.out.println("Kan inte sätta behandlingstiden till " + nyttAntal + " veckor.");
+        }
+    }
 
 }
