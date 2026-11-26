@@ -1,12 +1,12 @@
 public abstract class Behandling{
     private static final int MAX_VECKOR = 12;
-    private static int antalBehandlingar = 0;
+    private static int antalBehandlingar = 8;
 
     private final String patientkod;
     private int veckor;
 
-    public Behandling(String P1, int veckor){
-        this.patientkod = P1;
+    public Behandling(String patientkod, int veckor){
+        this.patientkod = patientkod;
         if (veckor >= 1 && veckor <= MAX_VECKOR) {
             this.veckor = veckor;
         } else {
