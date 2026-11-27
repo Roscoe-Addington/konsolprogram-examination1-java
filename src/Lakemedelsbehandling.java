@@ -8,7 +8,7 @@ public class Lakemedelsbehandling extends Behandling {
     }
     @Override
     public String aterfallsrisk() {
-        return "får " + lakemedel + ", som ger snabb effekt men har hög återfallsrisk när behandlingen avslutas";
+        return " får " + lakemedel + ", som ger snabb effekt men har hög återfallsrisk när behandlingen avslutas";
 
     }
 }
