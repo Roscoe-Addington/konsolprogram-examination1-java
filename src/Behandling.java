@@ -1,6 +1,6 @@
 public abstract class Behandling{
     private static final int MAX_VECKOR = 12;
-    private static int antalBehandlingar = 8;
+    private static int antalBehandlingar = 2;
 
     private final String patientkod;
     private int veckor;
