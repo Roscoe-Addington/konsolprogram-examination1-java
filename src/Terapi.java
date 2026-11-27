@@ -7,7 +7,7 @@ public class Terapi extends Behandling {
 
         }
         @Override public String aterfallsrisk(){
-        return "får " + terapiform + " och har låg återfallsrisk, eftersom terapin lär ut strategier för att hantera besvären";
+        return " får " + terapiform + " och har låg återfallsrisk, eftersom terapin lär ut strategier för att hantera besvären";
         }
     }
 
